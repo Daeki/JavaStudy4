@@ -6,8 +6,13 @@ public class MemberMain {
 		
 		Member member = new Member();
 		member.setAge(40000);
+		member.setEmail("test@gmail.com");
 		
+		String email = member.getEmail();
+		System.out.println(member.getEmail());
+		System.out.println(email);
 		System.out.println(member.getAge());
+		
 		
 		
 		

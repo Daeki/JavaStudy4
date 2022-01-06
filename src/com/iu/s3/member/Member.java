@@ -8,16 +8,41 @@ public class Member {
 	private double ki;
 	private int age;
 	
-	public void setAge(int age) {
-		this.age=20;
-		if(age>0 && age<200) {
-			this.age=age;
-		}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	
-	public int getAge() {
-		return this.age;
+	public String getEmail() {
+		return email;
 	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public double getMuge() {
+		return muge;
+	}
+	public void setMuge(double muge) {
+		this.muge = muge;
+	}
+	public double getKi() {
+		return ki;
+	}
+	public void setKi(double ki) {
+		this.ki = ki;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+	
 
 //- 이름
 //- 이메일주소
